@@ -1,0 +1,11 @@
+[meta]
+name = "CryT4x Glass-Ball"
+version = "0.1.0"
+author = "CryT4x"
+description = "Cosmetic Kit: Glass-Ball"
+min_host = "0.8.0"
+dependencies = ["cosmetic-kit"]
+
+[script]
+files = ["main.as"]
+assets = ["*.png", "models/*.txt"]
