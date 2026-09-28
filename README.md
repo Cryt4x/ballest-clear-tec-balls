@@ -1,2 +1,2 @@
 # Glass-Tec-Balls
-A glass ball for "Ballest of Them All"
+Clear balls for "Ballest of Them All"
