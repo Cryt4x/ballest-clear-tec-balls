@@ -11,7 +11,10 @@ void Main()
 {
     string f = Plugins::Folder();
     
-    AddBall("ct4-cosmetics.glass", "glass", "", f + "glass_preview.png", "");
+    AddBall("ct4-cosmetics.glass", "Glass", "", f + "glass_preview.png", f + "models/glass.txt");
+    AddBall("ct4-cosmetics.dots", "Dots", "", f + "dots_preview.png", f + "models/dots.txt");
+    //AddHat("ct4-cosmetics.cone", "cone", "/Engine/BasicShapes/Cone.Cone", 0.45, f + "coors_preview.png", "");
+    AddHat("ct4-cosmetics.coors", "Coors", "", 0.95, f + "coors_preview.png", f + "models/coors_hat.txt");
     if (MessageEnabled) { PrintCryT4x(); }
 }
 
