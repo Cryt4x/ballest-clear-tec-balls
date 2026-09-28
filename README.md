@@ -1,2 +1,2 @@
-# Ballest Glass-Ball cosmetic
+# Glass-Tec-Balls
 A glass ball for "Ballest of Them All"
