@@ -31,6 +31,6 @@ void PrintCryT4x()
     Log::Info("\\____//_/     _\\__,  /     /_/             /_/    /_/\\_\\    ");
     Log::Info("                  /_____/");
     Log::Info(" ");
-    Log::Info("Glass-Ball Cosmetic by CryT4x - Have fun o/");
+    Log::Info("Clear-Tec-Balls Cosmetic by CryT4x - Have fun o/");
     Log::Info(" ");
 }
