@@ -1,6 +1,6 @@
 [meta]
 name = "Clear-Tec-Balls"
-version = "1.0.6"
+version = "1.0.7"
 author = "CryT4x"
 description = "Includes 2 Balls: Clear, Dots | and 1 Hat: Coors"
 min_host = "0.8.0"
