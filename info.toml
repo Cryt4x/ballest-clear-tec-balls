@@ -1,8 +1,8 @@
 [meta]
 name = "Clear-Tec-Balls"
-version = "1.0.4"
+version = "1.0.5"
 author = "CryT4x"
-description = "Cosmetic Kit: Glass-Ball"
+description = "Balls: Clear, Dots | Hats: Coors"
 min_host = "0.8.0"
 dependencies = ["cosmetic-kit"]
 

@@ -1,7 +1,7 @@
 // Plugin by CryT4x; Used cosmetic example plugin as a template
 
 [Setting name="Hello-Message in Console" description="Whether the 'CryT4x'-message in the console is enabled"]
-bool MessageEnabled = true;
+bool MessageEnabled = false;
 
 import bool AddBall(const string &in, const string &in, const string &in, const string &in, const string &in) from "cosmetic-kit";
 import bool AddHat(const string &in, const string &in, const string &in, double, const string &in, const string &in) from "cosmetic-kit";
@@ -10,7 +10,7 @@ import bool AddBfx(const string &in, const string &in, const string &in, double,
 void Main()
 {
     string f = Plugins::Folder();
-    AddBall("ct4-cosmetics.glass", "Glass", "", f + "glass_preview.png", f + "models/glass.txt");
+    AddBall("ct4-cosmetics.glass", "Clear", "", f + "glass_preview.png", f + "models/glass.txt");
     AddBall("ct4-cosmetics.dots", "Dots", "", f + "dots_preview.png", f + "models/dots.txt");
     AddHat("ct4-cosmetics.coors", "Coors", "", 0.95, f + "coors_preview.png", f + "models/coors_hat.txt");
     if (MessageEnabled) { PrintCryT4x(); }
